@@ -9,7 +9,7 @@ fn main(){
         // Entrada de datos
         println!("Cantidad de dinero que tiene: {:.2} pesos", cajero[i]);
         let mut convertidor = String::new();
-        std::io::stdin().read_line(&mut convertidor).expect("Error al leer la cantidad");
+        std::io::stdin().read_line(&mut convertidor).expect("Error no puede leer la cantidad");
         let convertidor: i32 = convertidor.trim().parse().expect("No se pudo convertir la cantidad");
         resultado += convertidor * (cajero[i] * 100.0) as i32;
         // Impresion de datos

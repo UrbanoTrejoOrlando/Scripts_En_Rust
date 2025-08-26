@@ -12,7 +12,6 @@ Aquí encontrarás archivos nombrados como `Ejercicio1.rs`, `Ejercicio2.rs`, ...
 - Manejo de datos (variables, tipos, colecciones)
 - Funciones, módulos y ejemplos prácticos
 - Lógica, algoritmos sencillos y resolución de problemas
-- Posibles ejemplos de uso de `Cargo` si se amplía el proyecto más adelante
 
 ---
 
@@ -23,3 +22,9 @@ Aquí encontrarás archivos nombrados como `Ejercicio1.rs`, `Ejercicio2.rs`, ...
    ```bash
    git clone https://github.com/UrbanoTrejoOrlando/Scripts_En_Rust.git
    cd Scripts_En_Rust
+
+3. Para ejecutar un ejercicio usa
+   ```bash
+   rustc EjercicioX.rs && ./EjercicioX
+
+

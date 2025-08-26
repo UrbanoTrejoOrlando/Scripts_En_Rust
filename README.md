@@ -26,5 +26,3 @@ Aquí encontrarás archivos nombrados como `Ejercicio1.rs`, `Ejercicio2.rs`, ...
 3. Para ejecutar un ejercicio usa
    ```bash
    rustc EjercicioX.rs && ./EjercicioX
-
-
